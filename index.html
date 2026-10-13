@@ -8,8 +8,6 @@
 
   <title>HTML Form</title>
 
-  <!--Additional elements for browsers and robots go here-->
-
 </head>
 
 <body>
@@ -19,35 +17,35 @@
     <div>
       <!-- FIRST NAME -->
       <label for="fname">First name:</label>
-      <input type="text" id="fname" name="first_name_field">
+      <input type="text" id="fname" name="first_name_field" required>
     </div>
 
     <div>
       <!-- LAST NAME -->
       <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="last_name_field">
+      <input type="text" id="lname" name="last_name_field" required>
     </div>
 
     <div>
       <!--PHONE NUMBER -->
       <label for="phone">Phone:</label>
-      <input type="text" id="phone" name="phone_field">
+      <input type="text" id="phone" name="phone_field" required>
 
     </div>
 
     <div>
       <!-- EMAIL -->
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="hello@world"><br>
+      <input type="email" id="email" name="email_field" required><br>
 
     </div>
 
     <div>
       <!-- GENDER -->
       <label for="gender">Gender:</label>
-      <input type="radio" id="male" name="gender_field" value="male">
+      <input type="radio" id="male" name="gender_field" value="male" required>
       <label for="male">Male</label>
-      <input type="radio" id="female" name="gender_field" value="female">
+      <input type="radio" id="female" name="gender_field" value="female" required>
       <label for="female">Female</label>
 
     </div>
@@ -55,7 +53,7 @@
     <div>
       <!-- AGE -->
       <label for="age">Age:</label><br>
-      <select id="age" name="age">
+      <select id="age" name="age_field" required>
         <option value="under 18">Under 18</option>
         <option value="over 18">Over 18</option>
       </select><br>
@@ -65,20 +63,20 @@
     <div>
       <!-- Checkbox -->
       <h3>Days Available:</h3>
-      <label for="sunday">Sunday</label>
-      <input type="checkbox" id="sunday" name="available_field[]" value="sunday"><br>
-      <label for="monday">Monday</label>
-      <input type="checkbox" id="monday" name="available_field[]" value="monday"><br>
-      <label for="tuesday">Tuesday</label>
-      <input type="checkbox" id="tuesday" name="available_field[]" value="tuesday"><br>
-      <label for="wednesday">Wednesday</label>
-      <input type="checkbox" id="wednesday" name="available_field[]" value="wednesday"><br>
-      <label for="thursday">Thursday</label>
-      <input type="checkbox" id="thursday" name="available_field[]" value="thursday"><br>
-      <label for="friday">Friday</label>
-      <input type="checkbox" id="friday" name="available_field[]" value="friday"><br>
-      <label for="saturday">Saturday</label>
-      <input type="checkbox" id="saturday" name="available_field[]" value="saturday"><br>
+      <label for="Sunday">Sunday</label>
+      <input type="checkbox" id="Sunday" name="available_field[]" value="sunday"><br>
+      <label for="Monday">Monday</label>
+      <input type="checkbox" id="Monday" name="available_field[]" value="monday"><br>
+      <label for="Tuesday">Tuesday</label>
+      <input type="checkbox" id="Tuesday" name="available_field[]" value="tuesday"><br>
+      <label for="Wednesday">Wednesday</label>
+      <input type="checkbox" id="Wednesday" name="available_field[]" value="wednesday"><br>
+      <label for="Thursday">Thursday</label>
+      <input type="checkbox" id="Thursday" name="available_field[]" value="thursday"><br>
+      <label for="Friday">Friday</label>
+      <input type="checkbox" id="Friday" name="available_field[]" value="friday"><br>
+      <label for="Saturday">Saturday</label>
+      <input type="checkbox" id="Saturday" name="available_field[]" value="saturday"><br>
 
     </div>
 
@@ -93,7 +91,7 @@
       <input type="submit" value="Submit Query">
     </div>
     <!-- This is for the hidden field that the user does not see -->
-    <input type="hidden" id="hidden_field" name="hidden_field" value="hidden_value">
+    <input type="hidden" id="hidden_field" name="hidden_field" value="Afi Stephanie Adenso">
 
   </form>
 </body>
